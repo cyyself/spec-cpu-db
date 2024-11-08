@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 400.perlbench':
+
+        1919288192      br_mis_pred_retired                                                   
+     2189246309147      inst_retired                                                          
+      477229512536      cpu_cycles                                                            
+
+     179.799608177 seconds time elapsed
+
+     170.057773000 seconds user
+       0.850051000 seconds sys
+
+

@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 453.povray':
+
+         343406667      br_mis_pred_retired                                                   
+      803698453716      inst_retired                                                          
+      204751911297      cpu_cycles                                                            
+
+      89.661601646 seconds time elapsed
+
+      73.091057000 seconds user
+       0.202862000 seconds sys
+
+

@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 429.mcf':
+
+        1924526929      br_mis_pred_retired                                                   
+      304739090811      inst_retired                                                          
+      301127576382      cpu_cycles                                                            
+
+     116.344244246 seconds time elapsed
+
+     107.465659000 seconds user
+       0.271922000 seconds sys
+
+

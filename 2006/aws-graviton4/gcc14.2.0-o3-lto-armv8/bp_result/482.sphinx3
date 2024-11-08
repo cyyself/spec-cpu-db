@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 482.sphinx3':
+
+        2995020003      br_mis_pred_retired                                                   
+     2912731980034      inst_retired                                                          
+      732965235085      cpu_cycles                                                            
+
+     271.650979407 seconds time elapsed
+
+     262.019856000 seconds user
+       0.269409000 seconds sys
+
+

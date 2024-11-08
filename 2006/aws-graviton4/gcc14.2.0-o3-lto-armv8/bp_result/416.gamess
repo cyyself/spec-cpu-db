@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 416.gamess':
+
+        1284534632      br_mis_pred_retired                                                   
+     5228524429984      inst_retired                                                          
+      941769011166      cpu_cycles                                                            
+
+     345.736915140 seconds time elapsed
+
+     336.522735000 seconds user
+       0.352498000 seconds sys
+
+

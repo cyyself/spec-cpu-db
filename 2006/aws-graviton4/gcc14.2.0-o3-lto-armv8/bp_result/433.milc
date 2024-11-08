@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 433.milc':
+
+          18884483      br_mis_pred_retired                                                   
+      480269597579      inst_retired                                                          
+      184197353948      cpu_cycles                                                            
+
+      74.538067854 seconds time elapsed
+
+      63.508335000 seconds user
+       2.420759000 seconds sys
+
+

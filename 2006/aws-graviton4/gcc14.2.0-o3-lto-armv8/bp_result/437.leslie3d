@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 437.leslie3d':
+
+          23743452      br_mis_pred_retired                                                   
+      771810933696      inst_retired                                                          
+      336605770002      cpu_cycles                                                            
+
+     129.064776760 seconds time elapsed
+
+     120.315656000 seconds user
+       0.146547000 seconds sys
+
+

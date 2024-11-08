@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 436.cactusADM':
+
+          16102894      br_mis_pred_retired                                                   
+     1427282920666      inst_retired                                                          
+      424365038700      cpu_cycles                                                            
+
+     160.427195412 seconds time elapsed
+
+     151.171546000 seconds user
+       0.655486000 seconds sys
+
+

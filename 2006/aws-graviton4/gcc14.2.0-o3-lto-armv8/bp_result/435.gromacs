@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=v8 --tune=base 435.gromacs':
+
+        2682260613      br_mis_pred_retired                                                   
+     1217517689548      inst_retired                                                          
+      413151878594      cpu_cycles                                                            
+
+     156.398770409 seconds time elapsed
+
+     147.618183000 seconds user
+       0.175529000 seconds sys
+
+
