@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2 --tune=base 483.xalancbmk':
+
+         517442538      br_mis_pred_retired                                                   
+      867367469064      inst_retired                                                          
+      290245836396      cpu_cycles                                                            
+
+     112.880949422 seconds time elapsed
+
+     103.474660000 seconds user
+       0.529638000 seconds sys
+
+

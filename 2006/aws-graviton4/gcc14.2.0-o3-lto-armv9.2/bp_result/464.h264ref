@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2 --tune=base 464.h264ref':
+
+        2676870861      br_mis_pred_retired                                                   
+     3112096966610      inst_retired                                                          
+      771904824881      cpu_cycles                                                            
+
+     284.931924488 seconds time elapsed
+
+     275.933130000 seconds user
+       0.255100000 seconds sys
+
+

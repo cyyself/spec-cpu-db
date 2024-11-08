@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 435.gromacs':
+
+        2672450785      br_mis_pred_retired                                                   
+     1211111646142      inst_retired                                                          
+      411089587493      cpu_cycles                                                            
+
+     155.689210444 seconds time elapsed
+
+     146.941819000 seconds user
+       0.134371000 seconds sys
+
+

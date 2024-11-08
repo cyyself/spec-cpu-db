@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 470.lbm':
+
+          17865929      br_mis_pred_retired                                                   
+      805336622848      inst_retired                                                          
+      352404676702      cpu_cycles                                                            
+
+     134.690803821 seconds time elapsed
+
+     125.905839000 seconds user
+       0.180801000 seconds sys
+
+

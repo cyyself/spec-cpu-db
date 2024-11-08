@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 410.bwaves':
+
+          39273095      br_mis_pred_retired                                                   
+      746724023480      inst_retired                                                          
+      342278220721      cpu_cycles                                                            
+
+     131.327796463 seconds time elapsed
+
+     121.863608000 seconds user
+       0.602263000 seconds sys
+
+

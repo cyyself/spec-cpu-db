@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 465.tonto':
+
+         832253962      br_mis_pred_retired                                                   
+     1985817855945      inst_retired                                                          
+      410572046101      cpu_cycles                                                            
+
+     155.515109249 seconds time elapsed
+
+     146.693771000 seconds user
+       0.210381000 seconds sys
+
+

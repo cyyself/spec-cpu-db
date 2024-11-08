@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2 --tune=base 401.bzip2':
+
+       14518186693      br_mis_pred_retired                                                   
+     2301998892391      inst_retired                                                          
+      787453383126      cpu_cycles                                                            
+
+     290.570979977 seconds time elapsed
+
+     281.306364000 seconds user
+       0.400752000 seconds sys
+
+

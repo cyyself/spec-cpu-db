@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 464.h264ref':
+
+        2701428460      br_mis_pred_retired                                                   
+     3119623799603      inst_retired                                                          
+      770741851325      cpu_cycles                                                            
+
+     284.673614445 seconds time elapsed
+
+     275.566544000 seconds user
+       0.238821000 seconds sys
+
+

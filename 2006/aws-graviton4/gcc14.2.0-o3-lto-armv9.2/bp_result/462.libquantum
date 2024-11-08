@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2 --tune=base 462.libquantum':
+
+          71378671      br_mis_pred_retired                                                   
+     1830904289523      inst_retired                                                          
+      384403979057      cpu_cycles                                                            
+
+     146.008776336 seconds time elapsed
+
+     137.308947000 seconds user
+       0.219825000 seconds sys
+
+

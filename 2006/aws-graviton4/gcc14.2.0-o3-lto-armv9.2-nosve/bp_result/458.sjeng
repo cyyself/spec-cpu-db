@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 458.sjeng':
+
+       10794444091      br_mis_pred_retired                                                   
+     2360619520021      inst_retired                                                          
+      774578334376      cpu_cycles                                                            
+
+     285.684157218 seconds time elapsed
+
+     276.912852000 seconds user
+       0.160773000 seconds sys
+
+

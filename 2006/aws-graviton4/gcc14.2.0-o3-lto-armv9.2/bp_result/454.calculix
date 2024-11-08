@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2 --tune=base 454.calculix':
+
+        2068978081      br_mis_pred_retired                                                   
+     3638205515901      inst_retired                                                          
+     1015040990868      cpu_cycles                                                            
+
+     372.436946517 seconds time elapsed
+
+     362.779697000 seconds user
+       0.298166000 seconds sys
+
+

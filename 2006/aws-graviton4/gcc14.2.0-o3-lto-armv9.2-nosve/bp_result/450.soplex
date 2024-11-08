@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 450.soplex':
+
+        4180551335      br_mis_pred_retired                                                   
+      640630858608      inst_retired                                                          
+      318537821339      cpu_cycles                                                            
+
+     122.866352174 seconds time elapsed
+
+     113.523604000 seconds user
+       0.484214000 seconds sys
+
+

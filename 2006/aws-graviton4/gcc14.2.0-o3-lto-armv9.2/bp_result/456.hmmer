@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2 --tune=base 456.hmmer':
+
+         502541134      br_mis_pred_retired                                                   
+     1400287956296      inst_retired                                                          
+      295577003538      cpu_cycles                                                            
+
+     114.354478561 seconds time elapsed
+
+     105.525814000 seconds user
+       0.222595000 seconds sys
+
+

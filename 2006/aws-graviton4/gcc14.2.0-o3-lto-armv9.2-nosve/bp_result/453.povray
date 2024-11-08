@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 453.povray':
+
+         350979697      br_mis_pred_retired                                                   
+      803599871394      inst_retired                                                          
+      206960645356      cpu_cycles                                                            
+
+      90.323092883 seconds time elapsed
+
+      73.910583000 seconds user
+       0.174091000 seconds sys
+
+

@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 447.dealII':
+
+        2715378900      br_mis_pred_retired                                                   
+     1618385572596      inst_retired                                                          
+      439570706630      cpu_cycles                                                            
+
+     173.660826083 seconds time elapsed
+
+     155.313158000 seconds user
+       1.979167000 seconds sys
+
+

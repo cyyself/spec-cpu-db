@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2 --tune=base 434.zeusmp':
+
+          22467655      br_mis_pred_retired                                                   
+     1028442619418      inst_retired                                                          
+      309338038040      cpu_cycles                                                            
+
+     119.303881450 seconds time elapsed
+
+     110.507317000 seconds user
+       0.187485000 seconds sys
+
+

@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 459.GemsFDTD':
+
+          24020278      br_mis_pred_retired                                                   
+      716514493320      inst_retired                                                          
+      332047096340      cpu_cycles                                                            
+
+     127.668865905 seconds time elapsed
+
+     118.582749000 seconds user
+       0.233364000 seconds sys
+
+
