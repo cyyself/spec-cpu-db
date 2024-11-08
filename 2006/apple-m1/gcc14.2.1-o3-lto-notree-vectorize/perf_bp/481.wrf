@@ -1,0 +1,20 @@
+
+ Performance counter stats for 'numactl --physcpubind 4-7 runspec --noreportable --iterations=1 --tune=base --config=no-simd 481.wrf':
+
+        1080158744      apple_firestorm_pmu/branch_mispred_nonspec/                                        (100.00%)
+          10086844      apple_icestorm_pmu/branch_mispred_nonspec/                                        (0.10%)
+      196731658226      apple_firestorm_pmu/inst_branch/                                        (100.00%)
+         243175761      apple_icestorm_pmu/inst_branch/                                         (0.10%)
+         926805916      apple_firestorm_pmu/branch_cond_mispred_nonspec/                                        (100.00%)
+           9464651      apple_icestorm_pmu/branch_cond_mispred_nonspec/                                        (0.10%)
+     2363058202265      apple_firestorm_pmu/instructions/ #    5.25  insn per cycle              (100.00%)
+        1228042837      apple_icestorm_pmu/instructions/ #    0.00  insn per cycle              (0.10%)
+      450417656242      apple_firestorm_pmu/cycles/                                             (100.00%)
+         886445087      apple_icestorm_pmu/cycles/                                              (0.10%)
+
+     152.137856076 seconds time elapsed
+
+     142.780045000 seconds user
+       0.168038000 seconds sys
+
+
