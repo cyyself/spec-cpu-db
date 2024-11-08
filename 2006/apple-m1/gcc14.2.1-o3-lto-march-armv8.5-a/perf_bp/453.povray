@@ -1,0 +1,20 @@
+
+ Performance counter stats for 'numactl --physcpubind 4-7 runspec --noreportable --iterations=1 --config=native --tune=base 453.povray':
+
+         710931852      apple_firestorm_pmu/branch_mispred_nonspec/                                        (100.00%)
+           8836923      apple_icestorm_pmu/branch_mispred_nonspec/                                        (0.13%)
+      137321057025      apple_firestorm_pmu/inst_branch/                                        (100.00%)
+         190775552      apple_icestorm_pmu/inst_branch/                                         (0.13%)
+         493889474      apple_firestorm_pmu/branch_cond_mispred_nonspec/                                        (100.00%)
+           8323880      apple_icestorm_pmu/branch_cond_mispred_nonspec/                                        (0.13%)
+      802296178347      apple_firestorm_pmu/instructions/ #    4.52  insn per cycle              (100.00%)
+         960355599      apple_icestorm_pmu/instructions/ #    0.01  insn per cycle              (0.13%)
+      177583121247      apple_firestorm_pmu/cycles/                                             (100.00%)
+         739762153      apple_icestorm_pmu/cycles/                                              (0.13%)
+
+      73.066362804 seconds time elapsed
+
+      56.501111000 seconds user
+       0.104618000 seconds sys
+
+
