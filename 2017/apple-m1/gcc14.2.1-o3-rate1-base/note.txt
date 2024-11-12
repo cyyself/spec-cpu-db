@@ -1,0 +1,2 @@
+Even though we have -march=native, GCC can not recognize the Apple
+M1 CPU, so the actual -march is armv8-a.
