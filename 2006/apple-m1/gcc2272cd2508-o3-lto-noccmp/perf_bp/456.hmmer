@@ -1,0 +1,20 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp 456.hmmer':
+
+         840034630      apple_firestorm_pmu/branch_mispred_nonspec:u/                                      
+     <not counted>      apple_icestorm_pmu/branch_mispred_nonspec:u/                                        (0.00%)
+       93567740623      apple_firestorm_pmu/inst_branch:u/                                      
+     <not counted>      apple_icestorm_pmu/inst_branch:u/                                        (0.00%)
+         819071288      apple_firestorm_pmu/branch_cond_mispred_nonspec:u/                                      
+     <not counted>      apple_icestorm_pmu/branch_cond_mispred_nonspec:u/                                        (0.00%)
+     1410937769422      apple_firestorm_pmu/instructions:u/ #    5.11  insn per cycle            
+     <not counted>      apple_icestorm_pmu/instructions:u/                                        (0.00%)
+      275965887418      apple_firestorm_pmu/cycles:u/                                         
+     <not counted>      apple_icestorm_pmu/cycles:u/                                            (0.00%)
+
+      96.404637951 seconds time elapsed
+
+      87.514934000 seconds user
+       0.120316000 seconds sys
+
+

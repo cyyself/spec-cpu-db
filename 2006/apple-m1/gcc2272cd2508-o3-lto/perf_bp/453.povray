@@ -1,0 +1,20 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp 453.povray':
+
+         697656350      apple_firestorm_pmu/branch_mispred_nonspec:u/                                      
+     <not counted>      apple_icestorm_pmu/branch_mispred_nonspec:u/                                        (0.00%)
+      136190372466      apple_firestorm_pmu/inst_branch:u/                                      
+     <not counted>      apple_icestorm_pmu/inst_branch:u/                                        (0.00%)
+         478022911      apple_firestorm_pmu/branch_cond_mispred_nonspec:u/                                      
+     <not counted>      apple_icestorm_pmu/branch_cond_mispred_nonspec:u/                                        (0.00%)
+      758335288153      apple_firestorm_pmu/instructions:u/ #    4.33  insn per cycle            
+     <not counted>      apple_icestorm_pmu/instructions:u/                                        (0.00%)
+      175259561964      apple_firestorm_pmu/cycles:u/                                         
+     <not counted>      apple_icestorm_pmu/cycles:u/                                            (0.00%)
+
+      71.892753897 seconds time elapsed
+
+      55.299037000 seconds user
+       0.115052000 seconds sys
+
+
