@@ -3,6 +3,7 @@
 from pathlib import Path
 import sys
 import csv
+import argparse
 
 def read_perf_result(filename: Path):
     result = {}
@@ -31,9 +32,38 @@ def extract_from_dir(dir: Path):
     return result
 
 if __name__ == '__main__':
-    dir = sys.argv[1]
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-d', '--dir', type=str)
+    parser.add_argument('-p', '--prefix-tag', type=str, required=False)
+    parser.add_argument('-s', '--suffix-tag', type=str, required=False)
+    parser.add_argument('-c', '--col-name', nargs='*', action='extend', required=False)
+    args = parser.parse_args()
+    dir = args.dir
+    prefix_tag = args.prefix_tag
+    suffix_tag = args.suffix_tag
+    col_name = {}
+    if args.col_name is not None:
+        for x in args.col_name:
+            col_name[x.split('=')[0]] = x.split('=')[1]
     result = extract_from_dir(Path(dir))
     writer = csv.writer(sys.stdout)
-    writer.writerow(['benchmark']+list(result[next(iter(result))].keys()))
-    for key, value in result.items():
-        writer.writerow([key]+list(value.values()))
+    # col_name, prefix, suffix
+    keys = list(result[next(iter(result))].keys())
+    if col_name != {}:
+        keys = col_name.values()
+    if prefix_tag is not None:
+        keys = [prefix_tag + x for x in keys]
+    if suffix_tag is not None:
+        keys = [x + suffix_tag for x in keys]
+    writer.writerow(['benchmark']+keys)
+    # write result
+    for benchmark, value in result.items():
+        result = {}
+        for key, val in value.items():
+            if col_name != {}:
+                if key in col_name:
+                    result[col_name[key]] = val
+            else:
+                result[key] = val
+        result_list = [result[key] for key in col_name.values()]
+        writer.writerow([benchmark]+result_list)
