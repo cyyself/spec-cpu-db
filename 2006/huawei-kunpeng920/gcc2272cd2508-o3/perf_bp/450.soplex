@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp-nolto 450.soplex':
+
+      115543883361      branch-instructions                                                   
+        5692786083      branch-misses                    #    4.93% of all branches           
+      639362179202      instructions                     #    0.80  insn per cycle            
+      796162618015      cycles                                                                
+
+     323.332300012 seconds time elapsed
+
+     312.812607000 seconds user
+       1.149692000 seconds sys
+
+

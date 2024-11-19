@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp-nolto 447.dealII':
+
+      331133440464      branch-instructions                                                   
+        4614461705      branch-misses                    #    1.39% of all branches           
+     1826836080319      instructions                     #    1.80  insn per cycle            
+     1014682703387      cycles                                                                
+
+     418.224579196 seconds time elapsed
+
+     398.019968000 seconds user
+       3.801128000 seconds sys
+
+

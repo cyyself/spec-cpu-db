@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp 416.gamess':
+
+      391518266799      branch-instructions                                                   
+        4814091410      branch-misses                    #    1.23% of all branches           
+     5179034914299      instructions                     #    2.59  insn per cycle            
+     2001561034543      cycles                                                                
+
+     792.479267133 seconds time elapsed
+
+     782.382874000 seconds user
+       0.717406000 seconds sys
+
+

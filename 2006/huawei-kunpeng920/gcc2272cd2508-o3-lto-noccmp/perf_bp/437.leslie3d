@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp 437.leslie3d':
+
+       61044804447      branch-instructions                                                   
+         258677230      branch-misses                    #    0.42% of all branches           
+      773045015125      instructions                     #    0.60  insn per cycle            
+     1295708036679      cycles                                                                
+
+     514.322744372 seconds time elapsed
+
+     505.007821000 seconds user
+       0.440635000 seconds sys
+
+

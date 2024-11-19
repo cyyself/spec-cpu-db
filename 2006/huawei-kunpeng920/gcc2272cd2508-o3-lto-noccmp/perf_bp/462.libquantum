@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp 462.libquantum':
+
+      411686702151      branch-instructions                                                   
+        4583169129      branch-misses                    #    1.11% of all branches           
+     1830515669116      instructions                     #    1.56  insn per cycle            
+     1171480527085      cycles                                                                
+
+     466.314343326 seconds time elapsed
+
+     456.813641000 seconds user
+       0.643169000 seconds sys
+
+

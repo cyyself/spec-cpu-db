@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp-nolto 459.GemsFDTD':
+
+       27773563083      branch-instructions                                                   
+          88582762      branch-misses                    #    0.32% of all branches           
+      713011702971      instructions                     #    0.59  insn per cycle            
+     1201059878039      cycles                                                                
+
+     474.906049954 seconds time elapsed
+
+     464.788362000 seconds user
+       0.758919000 seconds sys
+
+

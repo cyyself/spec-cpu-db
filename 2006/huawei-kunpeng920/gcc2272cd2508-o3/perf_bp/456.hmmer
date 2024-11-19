@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp-nolto 456.hmmer':
+
+       92978730687      branch-instructions                                                   
+         739423774      branch-misses                    #    0.80% of all branches           
+     1399327169861      instructions                     #    2.48  insn per cycle            
+      564707739533      cycles                                                                
+
+     234.014405499 seconds time elapsed
+
+     224.518856000 seconds user
+       0.648717000 seconds sys
+
+

@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp 482.sphinx3':
+
+      220479525534      branch-instructions                                                   
+        5805074474      branch-misses                    #    2.63% of all branches           
+     1994927842278      instructions                     #    0.98  insn per cycle            
+     2038414682005      cycles                                                                
+
+     830.615237536 seconds time elapsed
+
+     819.681286000 seconds user
+       0.544594000 seconds sys
+
+

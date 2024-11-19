@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp-nolto 471.omnetpp':
+
+      134742810324      branch-instructions                                                   
+        2887713967      branch-misses                    #    2.14% of all branches           
+      568009513572      instructions                     #    0.61  insn per cycle            
+      934202291042      cycles                                                                
+
+     376.884298985 seconds time elapsed
+
+     366.873964000 seconds user
+       0.614810000 seconds sys
+
+

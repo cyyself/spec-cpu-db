@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp-nolto 458.sjeng':
+
+      472642893052      branch-instructions                                                   
+       18134065138      branch-misses                    #    3.84% of all branches           
+     2503398320733      instructions                     #    1.87  insn per cycle            
+     1340428799425      cycles                                                                
+
+     532.484727235 seconds time elapsed
+
+     523.074902000 seconds user
+       0.539963000 seconds sys
+
+

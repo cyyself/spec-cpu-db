@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp 434.zeusmp':
+
+       29897529760      branch-instructions                                                   
+         173399567      branch-misses                    #    0.58% of all branches           
+      932711971105      instructions                     #    0.94  insn per cycle            
+      993091959831      cycles                                                                
+
+     392.366042071 seconds time elapsed
+
+     383.061777000 seconds user
+       0.445630000 seconds sys
+
+

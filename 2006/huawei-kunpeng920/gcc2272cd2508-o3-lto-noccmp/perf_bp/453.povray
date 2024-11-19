@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp 453.povray':
+
+      136397062053      branch-instructions                                                   
+        2367022209      branch-misses                    #    1.74% of all branches           
+      759050827979      instructions                     #    1.74  insn per cycle            
+      436224787000      cycles                                                                
+
+     207.192119693 seconds time elapsed
+
+     190.265304000 seconds user
+       0.533061000 seconds sys
+
+

@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-ccmp-nolto 400.perlbench':
+
+      430022392879      branch-instructions                                                   
+        5382619382      branch-misses                    #    1.25% of all branches           
+     2180943416676      instructions                     #    2.40  insn per cycle            
+      907467989231      cycles                                                                
+
+     360.343376254 seconds time elapsed
+
+     349.149912000 seconds user
+       1.626436000 seconds sys
+
+

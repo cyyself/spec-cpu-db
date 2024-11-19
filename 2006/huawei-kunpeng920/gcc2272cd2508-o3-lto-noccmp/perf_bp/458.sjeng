@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp 458.sjeng':
+
+      464212066469      branch-instructions                                                   
+       17470875113      branch-misses                    #    3.76% of all branches           
+     2292556859994      instructions                     #    1.80  insn per cycle            
+     1272471924720      cycles                                                                
+
+     526.365492353 seconds time elapsed
+
+     517.044943000 seconds user
+       0.444480000 seconds sys
+
+

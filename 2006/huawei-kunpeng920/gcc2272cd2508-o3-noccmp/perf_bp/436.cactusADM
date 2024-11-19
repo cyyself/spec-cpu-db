@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp-nolto 436.cactusADM':
+
+        4938993354      branch-instructions                                                   
+          53615789      branch-misses                    #    1.09% of all branches           
+     1418860001191      instructions                     #    1.22  insn per cycle            
+     1163841379176      cycles                                                                
+
+     456.920423643 seconds time elapsed
+
+     446.671788000 seconds user
+       1.384381000 seconds sys
+
+

@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-15-noccmp 473.astar':
+
+      154764021908      branch-instructions                                                   
+       22063599038      branch-misses                    #   14.26% of all branches           
+      921901985119      instructions                     #    0.89  insn per cycle            
+     1041691929893      cycles                                                                
+
+     417.702743432 seconds time elapsed
+
+     408.250974000 seconds user
+       0.585556000 seconds sys
+
+
