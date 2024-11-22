@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8-novec 454.calculix':
+
+      201796562694      branches                                                              
+        2522166340      branch-misses                    #    1.25% of all branches           
+       17235280410      stalled-cycles-frontend          #    1.33% frontend cycles idle      
+      366213386041      stalled-cycles-backend           #   28.18% backend cycles idle       
+     1299773890595      cycles                                                                
+     3432503512880      instructions                     #    2.64  insn per cycle            
+                                                  #    0.11  stalled cycles per insn   
+
+     392.298123130 seconds time elapsed
+
+     382.562450000 seconds user
+       0.343188000 seconds sys
+
+

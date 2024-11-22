@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8-novec 471.omnetpp':
+
+      116706627663      branches                                                              
+        2655618741      branch-misses                    #    2.28% of all branches           
+       49865461500      stalled-cycles-frontend          #    7.89% frontend cycles idle      
+      404868329805      stalled-cycles-backend           #   64.07% backend cycles idle       
+      631919461118      cycles                                                                
+      533196863187      instructions                     #    0.84  insn per cycle            
+                                                  #    0.76  stalled cycles per insn   
+
+     195.767115068 seconds time elapsed
+
+     186.435994000 seconds user
+       0.432462000 seconds sys
+
+

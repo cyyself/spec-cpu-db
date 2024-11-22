@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8 450.soplex':
+
+      118499820141      branches                                                              
+        5104294862      branch-misses                    #    4.31% of all branches           
+       44405238396      stalled-cycles-frontend          #   10.52% frontend cycles idle      
+      180866090834      stalled-cycles-backend           #   42.85% backend cycles idle       
+      422088620576      cycles                                                                
+      642495702254      instructions                     #    1.52  insn per cycle            
+                                                  #    0.28  stalled cycles per insn   
+
+     135.773695833 seconds time elapsed
+
+     124.003129000 seconds user
+       0.776980000 seconds sys
+
+

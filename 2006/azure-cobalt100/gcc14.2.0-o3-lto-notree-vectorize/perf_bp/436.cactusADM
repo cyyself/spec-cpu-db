@@ -1,0 +1,17 @@
+
+ Performance counter stats for './cactusADM_base.gcc-14-armv8-novec /home/chenyangyu/spec06-aarch64/benchspec/CPU2006/436.cactusADM/data/ref/input/benchADM.par':
+
+        5240570515      branches                                                              
+          18003600      branch-misses                    #    0.34% of all branches           
+       16043627943      stalled-cycles-frontend          #    1.81% frontend cycles idle      
+      262840664091      stalled-cycles-backend           #   29.61% backend cycles idle       
+      887795559193      cycles                                                                
+     2477707605829      instructions                     #    2.79  insn per cycle            
+                                                  #    0.11  stalled cycles per insn   
+
+     262.101304969 seconds time elapsed
+
+     261.397131000 seconds user
+       0.660906000 seconds sys
+
+

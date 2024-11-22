@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8-novec 434.zeusmp':
+
+       38807565702      branches                                                              
+          28700699      branch-misses                    #    0.07% of all branches           
+        5644495829      stalled-cycles-frontend          #    0.96% frontend cycles idle      
+      230014590353      stalled-cycles-backend           #   39.22% backend cycles idle       
+      586484659770      cycles                                                                
+     1325561499705      instructions                     #    2.26  insn per cycle            
+                                                  #    0.17  stalled cycles per insn   
+
+     181.921340577 seconds time elapsed
+
+     172.839693000 seconds user
+       0.442820000 seconds sys
+
+

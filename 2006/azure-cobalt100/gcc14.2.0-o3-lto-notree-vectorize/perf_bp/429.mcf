@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8-novec 429.mcf':
+
+       65436092533      branches                                                              
+        2394534123      branch-misses                    #    3.66% of all branches           
+       22141962780      stalled-cycles-frontend          #    3.87% frontend cycles idle      
+      451541161796      stalled-cycles-backend           #   79.01% backend cycles idle       
+      571463876065      cycles                                                                
+      308093786975      instructions                     #    0.54  insn per cycle            
+                                                  #    1.47  stalled cycles per insn   
+
+     177.931522783 seconds time elapsed
+
+     168.107704000 seconds user
+       0.804660000 seconds sys
+
+

@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8 400.perlbench':
+
+      428614293705      branches                                                              
+        3243769290      branch-misses                    #    0.76% of all branches           
+       39535303877      stalled-cycles-frontend          #    6.23% frontend cycles idle      
+       81205761627      stalled-cycles-backend           #   12.80% backend cycles idle       
+      634217013891      cycles                                                                
+     2234384296477      instructions                     #    3.52  insn per cycle            
+                                                  #    0.04  stalled cycles per insn   
+
+     196.497370027 seconds time elapsed
+
+     186.119015000 seconds user
+       1.133153000 seconds sys
+
+

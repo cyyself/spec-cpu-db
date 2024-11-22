@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8-novec 465.tonto':
+
+      237837452202      branches                                                              
+        1287444701      branch-misses                    #    0.54% of all branches           
+       11118090107      stalled-cycles-frontend          #    1.98% frontend cycles idle      
+       84206906504      stalled-cycles-backend           #   14.99% backend cycles idle       
+      561653127890      cycles                                                                
+     2044606986341      instructions                     #    3.64  insn per cycle            
+                                                  #    0.04  stalled cycles per insn   
+
+     174.351536672 seconds time elapsed
+
+     165.356325000 seconds user
+       0.336120000 seconds sys
+
+

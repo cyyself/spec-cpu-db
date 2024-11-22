@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8 435.gromacs':
+
+       47427126145      branches                                                              
+        3447140384      branch-misses                    #    7.27% of all branches           
+       17833465136      stalled-cycles-frontend          #    3.15% frontend cycles idle      
+      172585260966      stalled-cycles-backend           #   30.45% backend cycles idle       
+      566839103910      cycles                                                                
+     1218385870749      instructions                     #    2.15  insn per cycle            
+                                                  #    0.14  stalled cycles per insn   
+
+     175.745008273 seconds time elapsed
+
+     166.824935000 seconds user
+       0.278265000 seconds sys
+
+

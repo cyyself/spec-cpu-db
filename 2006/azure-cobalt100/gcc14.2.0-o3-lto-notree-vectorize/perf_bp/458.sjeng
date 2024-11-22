@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8-novec 458.sjeng':
+
+      462502594518      branches                                                              
+       13040967043      branch-misses                    #    2.82% of all branches           
+      105689471438      stalled-cycles-frontend          #   10.61% frontend cycles idle      
+      212381844736      stalled-cycles-backend           #   21.32% backend cycles idle       
+      996354698096      cycles                                                                
+     2404934806557      instructions                     #    2.41  insn per cycle            
+                                                  #    0.09  stalled cycles per insn   
+
+     302.199699414 seconds time elapsed
+
+     293.139493000 seconds user
+       0.386866000 seconds sys
+
+

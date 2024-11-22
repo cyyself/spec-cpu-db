@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8-novec 410.bwaves':
+
+       17556403689      branches                                                              
+          51710325      branch-misses                    #    0.29% of all branches           
+        5090979649      stalled-cycles-frontend          #    1.15% frontend cycles idle      
+      196879088513      stalled-cycles-backend           #   44.39% backend cycles idle       
+      443504606067      cycles                                                                
+      849246573948      instructions                     #    1.91  insn per cycle            
+                                                  #    0.23  stalled cycles per insn   
+
+     139.920936302 seconds time elapsed
+
+     129.349705000 seconds user
+       1.695166000 seconds sys
+
+

@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8 462.libquantum':
+
+      412862946617      branches                                                              
+         148878068      branch-misses                    #    0.04% of all branches           
+        6041419041      stalled-cycles-frontend          #    1.54% frontend cycles idle      
+       61661325660      stalled-cycles-backend           #   15.76% backend cycles idle       
+      391323236156      cycles                                                                
+     1845053942573      instructions                     #    4.71  insn per cycle            
+                                                  #    0.03  stalled cycles per insn   
+
+     123.929974348 seconds time elapsed
+
+     114.847874000 seconds user
+       0.453279000 seconds sys
+
+

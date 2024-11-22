@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8 482.sphinx3':
+
+      306656580299      branches                                                              
+        4259919135      branch-misses                    #    1.39% of all branches           
+       32337548852      stalled-cycles-frontend          #    2.73% frontend cycles idle      
+      355814913215      stalled-cycles-backend           #   30.04% backend cycles idle       
+     1184282477045      cycles                                                                
+     2912762715664      instructions                     #    2.46  insn per cycle            
+                                                  #    0.12  stalled cycles per insn   
+
+     360.028691223 seconds time elapsed
+
+     349.666812000 seconds user
+       0.494783000 seconds sys
+
+

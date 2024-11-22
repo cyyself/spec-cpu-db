@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'runspec --noreportable --iterations=1 --tune=base --config=gcc-14-armv8 416.gamess':
+
+      393541513695      branches                                                              
+        2303253219      branch-misses                    #    0.59% of all branches           
+       20159448965      stalled-cycles-frontend          #    1.64% frontend cycles idle      
+       81564103714      stalled-cycles-backend           #    6.63% backend cycles idle       
+     1229940593726      cycles                                                                
+     5232907562222      instructions                     #    4.25  insn per cycle            
+                                                  #    0.02  stalled cycles per insn   
+
+     371.218330856 seconds time elapsed
+
+     361.733450000 seconds user
+       0.480435000 seconds sys
+
+
