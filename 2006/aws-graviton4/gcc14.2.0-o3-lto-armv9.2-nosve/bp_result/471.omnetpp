@@ -1,13 +1,13 @@
 
  Performance counter stats for 'runspec --noreportable --iterations=1 --config=9.2-nosve --tune=base 471.omnetpp':
 
-        1862333562      br_mis_pred_retired
-      531895882699      inst_retired
-      364272590156      cpu_cycles
+        1862584932      br_mis_pred_retired
+      531902469124      inst_retired
+      388243040978      cpu_cycles
 
-     139.613964209 seconds time elapsed
+     148.085355852 seconds time elapsed
 
-     130.316192000 seconds user
-       0.282700000 seconds sys
+     138.966606000 seconds user
+       0.230342000 seconds sys
 
 
