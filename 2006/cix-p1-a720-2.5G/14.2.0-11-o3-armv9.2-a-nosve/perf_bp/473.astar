@@ -1,0 +1,17 @@
+
+
+ Performance counter stats for 'sh /CPU2006LiteWrapper/473.astar/run-ref.sh':
+
+       12235232961      armv8_pmuv3_0/br_mis_pred_retired/                                      
+     <not counted>      armv8_pmuv3_1/br_mis_pred_retired/                                        (0.00%)
+     1107171891471      armv8_pmuv3_0/inst_retired/                                           
+     <not counted>      armv8_pmuv3_1/inst_retired/                                             (0.00%)
+      621864223926      armv8_pmuv3_0/cpu_cycles/                                             
+     <not counted>      armv8_pmuv3_1/cpu_cycles/                                               (0.00%)
+
+     248.899406064 seconds time elapsed
+
+     248.581040000 seconds user
+       0.174006000 seconds sys
+
+

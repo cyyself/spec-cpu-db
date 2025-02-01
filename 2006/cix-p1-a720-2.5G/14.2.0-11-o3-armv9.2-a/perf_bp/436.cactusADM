@@ -1,0 +1,17 @@
+
+
+ Performance counter stats for 'sh /CPU2006LiteWrapper/436.cactusADM/run-ref.sh':
+
+           7889798      armv8_pmuv3_0/br_mis_pred_retired/                                      
+     <not counted>      armv8_pmuv3_1/br_mis_pred_retired/                                        (0.00%)
+     2082196671565      armv8_pmuv3_0/inst_retired/                                           
+     <not counted>      armv8_pmuv3_1/inst_retired/                                             (0.00%)
+      562121111879      armv8_pmuv3_0/cpu_cycles/                                             
+     <not counted>      armv8_pmuv3_1/cpu_cycles/                                               (0.00%)
+
+     224.930415724 seconds time elapsed
+
+     223.753645000 seconds user
+       1.099836000 seconds sys
+
+

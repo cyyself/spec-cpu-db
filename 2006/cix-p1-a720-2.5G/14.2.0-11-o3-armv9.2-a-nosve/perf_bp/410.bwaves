@@ -1,0 +1,17 @@
+
+
+ Performance counter stats for 'sh /CPU2006LiteWrapper/410.bwaves/run-ref.sh':
+
+          88178665      armv8_pmuv3_0/br_mis_pred_retired/                                      
+     <not counted>      armv8_pmuv3_1/br_mis_pred_retired/                                        (0.00%)
+     1114505112911      armv8_pmuv3_0/inst_retired/                                           
+     <not counted>      armv8_pmuv3_1/inst_retired/                                             (0.00%)
+      623349341393      armv8_pmuv3_0/cpu_cycles/                                             
+     <not counted>      armv8_pmuv3_1/cpu_cycles/                                               (0.00%)
+
+     249.444684171 seconds time elapsed
+
+     248.545004000 seconds user
+       0.801227000 seconds sys
+
+

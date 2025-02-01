@@ -1,0 +1,17 @@
+
+
+ Performance counter stats for 'sh /CPU2006LiteWrapper/447.dealII/run-ref.sh':
+
+        3008747650      armv8_pmuv3_0/br_mis_pred_retired/                                      
+     <not counted>      armv8_pmuv3_1/br_mis_pred_retired/                                        (0.00%)
+     1622207939504      armv8_pmuv3_0/inst_retired/                                           
+     <not counted>      armv8_pmuv3_1/inst_retired/                                             (0.00%)
+      513781943619      armv8_pmuv3_0/cpu_cycles/                                             
+     <not counted>      armv8_pmuv3_1/cpu_cycles/                                               (0.00%)
+
+     206.424014549 seconds time elapsed
+
+     203.496236000 seconds user
+       2.103519000 seconds sys
+
+
