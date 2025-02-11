@@ -11,7 +11,7 @@ def read_perf_result(filename: Path):
         for line in f:
             if 'Performance counter stats for' in line:
                 continue
-            line = line.strip().replace('<not counted>','0').split()
+            line = line.strip().replace('<not counted>','0').replace(',','').split()
             if len(line) >= 2:
                 title = line[1] if line[1] != 'seconds' else " ".join(line[2:])
                 value = line[0]

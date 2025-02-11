@@ -34,7 +34,7 @@ if __name__ == "__main__":
                             time = x.strip().split()[0]
                             print(f"\"{cur_filename}\",sys,{time}")
                         if is_counter:
-                            data = x.strip().replace('<not counted>','0').split()
+                            data = x.strip().replace('<not counted>','0').replace(',','').split()
                             if len(data) == 2:
                                 print(f"\"{cur_filename}\",{data[1]},{data[0]}")
                         if x.strip().startswith('Performance counter stats for '):
