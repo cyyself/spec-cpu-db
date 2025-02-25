@@ -2,6 +2,7 @@
 
 import sys
 
+SHOW_PERF = True
 SHOW_TIME = False
 SHOW_USER = False
 SHOW_SYS = False
@@ -35,7 +36,7 @@ if __name__ == "__main__":
                             print(f"\"{cur_filename}\",sys,{time}")
                         if is_counter:
                             data = x.strip().replace('<not counted>','0').replace(',','').split()
-                            if len(data) == 2:
+                            if len(data) == 2 and SHOW_PERF:
                                 print(f"\"{cur_filename}\",{data[1]},{data[0]}")
                         if x.strip().startswith('Performance counter stats for '):
                             is_counter = True
