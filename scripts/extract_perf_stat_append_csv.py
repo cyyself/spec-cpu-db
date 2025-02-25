@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
 import sys
+import re
 
 SHOW_PERF = True
 SHOW_TIME = False
 SHOW_USER = False
 SHOW_SYS = False
-
+SIMPLE_NAME = False
 
 if __name__ == "__main__":
     filename = sys.argv[1]
@@ -28,17 +29,17 @@ if __name__ == "__main__":
                             is_counter = False
                             if SHOW_TIME:
                                 time = x.strip().split()[0]
-                                print(f"\"{cur_filename}\",time,{time}")
+                                print(f"{cur_filename},time,{time}")
                         if x.strip().endswith('seconds user') and SHOW_USER:
                             time = x.strip().split()[0]
-                            print(f"\"{cur_filename}\",user,{time}")
+                            print(f"{cur_filename},user,{time}")
                         if x.strip().endswith('seconds sys') and SHOW_SYS:
                             time = x.strip().split()[0]
-                            print(f"\"{cur_filename}\",sys,{time}")
+                            print(f"{cur_filename},sys,{time}")
                         if is_counter:
                             data = x.strip().replace('<not counted>','0').replace(',','').split()
                             if len(data) == 2 and SHOW_PERF:
-                                print(f"\"{cur_filename}\",{data[1]},{data[0]}")
+                                print(f"{cur_filename},{data[1]},{data[0]}")
                         if x.strip().startswith('Performance counter stats for '):
                             is_counter = True
                     buf = []
@@ -48,4 +49,9 @@ if __name__ == "__main__":
                     # find filename
                     split_l = line.find("'")
                     split_r = line.rfind("'")
-                    cur_filename = line[split_l+1:split_r]
+                    cur_filename = f"\"{line[split_l+1:split_r]}\""
+                    if SIMPLE_NAME:
+                        r = re.compile("(/[0-9]{3}.[A-Za-z0-9_]+/)")
+                        m = r.search(cur_filename)
+                        if m:
+                            cur_filename = m.group(1).strip().replace('/', '')
