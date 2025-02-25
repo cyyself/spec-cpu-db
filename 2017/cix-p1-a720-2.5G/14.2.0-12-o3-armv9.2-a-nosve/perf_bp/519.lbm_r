@@ -1,0 +1,17 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/CPU2017LiteWrapper/519.lbm_r/run-refrate.sh':
+
+        44,516,858      armv8_pmuv3_0/br_mis_pred_retired/                                      
+     <not counted>      armv8_pmuv3_1/br_mis_pred_retired/                                        (0.00%)
+ 1,331,575,623,798      armv8_pmuv3_0/inst_retired/                                           
+     <not counted>      armv8_pmuv3_1/inst_retired/                                             (0.00%)
+   635,428,357,410      armv8_pmuv3_0/cpu_cycles/                                             
+     <not counted>      armv8_pmuv3_1/cpu_cycles/                                               (0.00%)
+
+     254.242838383 seconds time elapsed
+
+     254.154984000 seconds user
+       0.021895000 seconds sys
+
+
