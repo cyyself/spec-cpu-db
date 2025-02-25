@@ -26,7 +26,7 @@ if __name__ == "__main__":
                 if line.startswith(' Performance counter stats for '):
                     # Assume the filename is in the format /000.<filename>/
                     # For example, "/400.perlbench/"
-                    r = re.compile("(/[0-9]{3}.[A-Za-z0-9]+/)")
+                    r = re.compile("(/[0-9]{3}.[A-Za-z0-9_]+/)")
                     m = r.search(line)
                     if m:
                         cur_filename = m.group(1).strip().replace('/', '')
