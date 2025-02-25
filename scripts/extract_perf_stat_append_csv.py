@@ -14,6 +14,7 @@ if __name__ == "__main__":
     cur_cmd = ""
     with open(filename, 'r') as f:
         lines = f.readlines()
+        cur_filename = ""
         for line in lines + ['# started on \n']:
             if line.startswith('# started on '):
                 if len(buf) > 0:
@@ -41,7 +42,6 @@ if __name__ == "__main__":
                         if x.strip().startswith('Performance counter stats for '):
                             is_counter = True
                     buf = []
-                cur_filename = line.split(' ')[3].strip()
             else:
                 buf.append(line)
                 if line.startswith(' Performance counter stats for \''):
