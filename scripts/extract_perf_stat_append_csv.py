@@ -51,7 +51,7 @@ if __name__ == "__main__":
                     split_r = line.rfind("'")
                     cur_filename = f"\"{line[split_l+1:split_r]}\""
                     if SIMPLE_NAME:
-                        r = re.compile("(/[0-9]{3}.[A-Za-z0-9_]+/)")
+                        r = re.compile("(/[0-9]{3}\\.[A-Za-z0-9_]+/)")
                         m = r.search(cur_filename)
                         if m:
                             cur_filename = m.group(1).strip().replace('/', '')
