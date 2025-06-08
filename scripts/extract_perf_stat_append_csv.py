@@ -37,6 +37,8 @@ if __name__ == "__main__":
                             time = x.strip().split()[0]
                             print(f"{cur_filename},sys,{time}")
                         if is_counter:
+                            if '#' in x:
+                                x = x.strip().split('#')[0].strip()
                             data = x.strip().replace('<not counted>','0').replace(',','').split()
                             if len(data) == 2 and SHOW_PERF:
                                 print(f"{cur_filename},{data[1]},{data[0]}")
