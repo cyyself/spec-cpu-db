@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/450.soplex/run-ref.sh':
+
+   646,233,910,691      instructions                     #    1.52  insn per cycle            
+   425,002,512,585      cycles                                                                
+
+      83.448734073 seconds time elapsed
+
+      82.833887000 seconds user
+       0.130771000 seconds sys
+
+

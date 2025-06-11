@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/433.milc/run-ref.sh':
+
+   714,269,400,133      instructions                     #    1.84  insn per cycle            
+   388,651,334,264      cycles                                                                
+
+      75.920580216 seconds time elapsed
+
+      73.785811000 seconds user
+       2.002525000 seconds sys
+
+

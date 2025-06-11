@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/456.hmmer/run-ref.sh':
+
+ 1,060,613,289,730      instructions                     #    3.54  insn per cycle            
+   299,781,652,366      cycles                                                                
+
+      58.552971045 seconds time elapsed
+
+      58.460265000 seconds user
+       0.001843000 seconds sys
+
+

@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/453.povray/run-ref.sh':
+
+   791,981,966,773      instructions                     #    3.48  insn per cycle            
+   227,821,868,758      cycles                                                                
+
+      44.863599013 seconds time elapsed
+
+      44.744079000 seconds user
+       0.009407000 seconds sys
+
+

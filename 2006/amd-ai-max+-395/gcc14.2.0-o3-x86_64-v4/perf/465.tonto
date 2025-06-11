@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/465.tonto/run-ref.sh':
+
+ 1,877,155,473,730      instructions                     #    4.37  insn per cycle            
+   430,038,875,589      cycles                                                                
+
+      84.330526612 seconds time elapsed
+
+      84.007896000 seconds user
+       0.015982000 seconds sys
+
+

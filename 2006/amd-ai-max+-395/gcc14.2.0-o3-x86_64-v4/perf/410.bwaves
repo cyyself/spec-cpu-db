@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/410.bwaves/run-ref.sh':
+
+ 1,311,462,189,326      instructions                     #    3.36  insn per cycle            
+   390,741,872,969      cycles                                                                
+
+      76.381990703 seconds time elapsed
+
+      75.820373000 seconds user
+       0.423361000 seconds sys
+
+

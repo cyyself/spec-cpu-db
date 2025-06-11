@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/471.omnetpp/run-ref.sh':
+
+   529,574,947,187      instructions                     #    0.91  insn per cycle            
+   584,773,416,124      cycles                                                                
+
+     114.378735684 seconds time elapsed
+
+     114.136214000 seconds user
+       0.028807000 seconds sys
+
+

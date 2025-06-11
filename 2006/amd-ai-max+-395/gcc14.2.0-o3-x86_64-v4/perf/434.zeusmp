@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/434.zeusmp/run-ref.sh':
+
+   440,789,432,687      instructions                     #    1.37  insn per cycle            
+   322,069,943,640      cycles                                                                
+
+      62.893207866 seconds time elapsed
+
+      62.734421000 seconds user
+       0.036913000 seconds sys
+
+

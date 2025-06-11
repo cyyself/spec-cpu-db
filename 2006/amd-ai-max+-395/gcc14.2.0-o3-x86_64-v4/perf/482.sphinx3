@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/482.sphinx3/run-ref.sh':
+
+ 2,743,034,670,506      instructions                     #    3.41  insn per cycle            
+   805,306,429,411      cycles                                                                
+
+     157.445515781 seconds time elapsed
+
+     156.976818000 seconds user
+       0.043945000 seconds sys
+
+

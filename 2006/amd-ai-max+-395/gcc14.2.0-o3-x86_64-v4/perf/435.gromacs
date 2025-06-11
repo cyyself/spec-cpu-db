@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/435.gromacs/run-ref.sh':
+
+ 1,228,017,552,979      instructions                     #    2.34  insn per cycle            
+   525,495,319,102      cycles                                                                
+
+     102.636723969 seconds time elapsed
+
+     102.483892000 seconds user
+       0.000000000 seconds sys
+
+

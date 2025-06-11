@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/459.GemsFDTD/run-ref.sh':
+
+   379,428,370,890      instructions                     #    1.01  insn per cycle            
+   376,353,212,194      cycles                                                                
+
+      73.507508580 seconds time elapsed
+
+      73.324642000 seconds user
+       0.035944000 seconds sys
+
+

@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/437.leslie3d/run-ref.sh':
+
+   217,831,604,734      instructions                     #    0.74  insn per cycle            
+   295,952,280,283      cycles                                                                
+
+      57.778162703 seconds time elapsed
+
+      57.642167000 seconds user
+       0.019967000 seconds sys
+
+

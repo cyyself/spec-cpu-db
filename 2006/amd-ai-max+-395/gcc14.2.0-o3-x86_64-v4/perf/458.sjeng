@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/458.sjeng/run-ref.sh':
+
+ 2,249,503,100,293      instructions                     #    2.05  insn per cycle            
+ 1,099,256,298,700      cycles                                                                
+
+     214.643121872 seconds time elapsed
+
+     214.328769000 seconds user
+       0.016866000 seconds sys
+
+

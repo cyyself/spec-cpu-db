@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/436.cactusADM/run-ref.sh':
+
+   264,903,350,990      instructions                     #    1.37  insn per cycle            
+   193,512,876,914      cycles                                                                
+
+      37.824171060 seconds time elapsed
+
+      37.441708000 seconds user
+       0.304778000 seconds sys
+
+

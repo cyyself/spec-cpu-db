@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/462.libquantum/run-ref.sh':
+
+ 2,052,526,415,763      instructions                     #    5.39  insn per cycle            
+   380,699,561,472      cycles                                                                
+
+      74.379294089 seconds time elapsed
+
+      74.196934000 seconds user
+       0.063919000 seconds sys
+
+

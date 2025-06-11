@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/464.h264ref/run-ref.sh':
+
+ 3,042,705,113,594      instructions                     #    3.92  insn per cycle            
+   776,021,085,751      cycles                                                                
+
+     152.123922885 seconds time elapsed
+
+     151.409058000 seconds user
+       0.065619000 seconds sys
+
+

@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/454.calculix/run-ref.sh':
+
+ 3,325,952,724,882      instructions                     #    3.00  insn per cycle            
+ 1,106,961,270,967      cycles                                                                
+
+     216.695276665 seconds time elapsed
+
+     216.099939000 seconds user
+       0.039940000 seconds sys
+
+

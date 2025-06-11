@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/401.bzip2/run-ref.sh':
+
+ 2,376,367,165,283      instructions                     #    2.38  insn per cycle            
+   999,294,742,163      cycles                                                                
+
+     195.570824333 seconds time elapsed
+
+     194.620708000 seconds user
+       0.223448000 seconds sys
+
+

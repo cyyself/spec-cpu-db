@@ -1,0 +1,13 @@
+
+
+ Performance counter stats for 'sh /mnt/data/auto_target_clone/spec_run/06lite/400.perlbench/run-ref.sh':
+
+ 2,090,255,316,251      instructions                     #    4.27  insn per cycle            
+   489,778,854,712      cycles                                                                
+
+      96.720229547 seconds time elapsed
+
+      96.103892000 seconds user
+       0.213117000 seconds sys
+
+
