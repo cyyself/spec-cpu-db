@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/531.deepsjeng_r/run-refrate.sh':
+
+        7007189305      br_mis_pred_retired
+     1802454783516      inst_retired
+      585677425981      cpu_cycles
+
+     209.490227395 seconds time elapsed
+
+     209.435006000 seconds user
+       0.045181000 seconds sys
+
+

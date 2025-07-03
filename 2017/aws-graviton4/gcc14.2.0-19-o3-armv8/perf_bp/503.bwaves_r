@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/503.bwaves_r/run-refrate.sh':
+
+          88365345      br_mis_pred_retired
+     1845854369881      inst_retired
+      613436078770      cpu_cycles
+
+     219.558747356 seconds time elapsed
+
+     217.640370000 seconds user
+       1.896549000 seconds sys
+
+

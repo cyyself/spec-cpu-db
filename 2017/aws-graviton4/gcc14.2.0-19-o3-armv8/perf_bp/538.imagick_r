@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/538.imagick_r/run-refrate.sh':
+
+        1368198956      br_mis_pred_retired
+     3989076582088      inst_retired
+      875648210246      cpu_cycles
+
+     313.215652106 seconds time elapsed
+
+     313.168686000 seconds user
+       0.035998000 seconds sys
+
+

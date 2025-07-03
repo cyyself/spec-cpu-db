@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/526.blender_r/run-refrate.sh':
+
+        6324362493      br_mis_pred_retired
+     1490191178525      inst_retired
+      546611123732      cpu_cycles
+
+     195.641775496 seconds time elapsed
+
+     195.412538000 seconds user
+       0.205125000 seconds sys
+
+

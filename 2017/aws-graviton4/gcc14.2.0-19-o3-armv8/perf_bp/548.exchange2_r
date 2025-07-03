@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/548.exchange2_r/run-refrate.sh':
+
+        4012520544      br_mis_pred_retired
+     2333480013713      inst_retired
+      474482846433      cpu_cycles
+
+     169.703447408 seconds time elapsed
+
+     169.697526000 seconds user
+       0.000000000 seconds sys
+
+

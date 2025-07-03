@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/523.xalancbmk_r/run-refrate.sh':
+
+         785683074      br_mis_pred_retired
+     1229660488385      inst_retired
+      589954036517      cpu_cycles
+
+     211.384254702 seconds time elapsed
+
+     210.624873000 seconds user
+       0.731899000 seconds sys
+
+

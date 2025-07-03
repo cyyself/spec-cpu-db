@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/511.povray_r/run-refrate.sh':
+
+        1123928943      br_mis_pred_retired
+     3095984954840      inst_retired
+      773835310420      cpu_cycles
+
+     276.877682325 seconds time elapsed
+
+     276.848408000 seconds user
+       0.025146000 seconds sys
+
+

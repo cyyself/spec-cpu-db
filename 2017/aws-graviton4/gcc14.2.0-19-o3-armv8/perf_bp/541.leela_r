@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/541.leela_r/run-refrate.sh':
+
+       23314184638      br_mis_pred_retired
+     2668770675312      inst_retired
+      959542999363      cpu_cycles
+
+     343.284730306 seconds time elapsed
+
+     343.222994000 seconds user
+       0.035997000 seconds sys
+
+

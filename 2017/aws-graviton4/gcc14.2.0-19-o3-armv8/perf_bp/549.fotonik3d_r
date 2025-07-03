@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/549.fotonik3d_r/run-refrate.sh':
+
+          31795472      br_mis_pred_retired
+     1383752018076      inst_retired
+      560414226161      cpu_cycles
+
+     200.583987433 seconds time elapsed
+
+     200.529984000 seconds user
+       0.052673000 seconds sys
+
+

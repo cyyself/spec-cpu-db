@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/507.cactuBSSN_r/run-refrate.sh':
+
+          13626823      br_mis_pred_retired
+     1466931115254      inst_retired
+      527546399341      cpu_cycles
+
+     188.894405154 seconds time elapsed
+
+     188.772858000 seconds user
+       0.103990000 seconds sys
+
+

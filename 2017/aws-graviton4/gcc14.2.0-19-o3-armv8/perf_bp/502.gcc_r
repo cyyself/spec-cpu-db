@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/502.gcc_r/run-refrate.sh':
+
+        2986975120      br_mis_pred_retired
+     1053402326215      inst_retired
+      478718617010      cpu_cycles
+
+     171.621435376 seconds time elapsed
+
+     168.983173000 seconds user
+       2.604233000 seconds sys
+
+

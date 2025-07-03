@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/520.omnetpp_r/run-refrate.sh':
+
+        4365511808      br_mis_pred_retired
+     1345366015475      inst_retired
+     1098390107012      cpu_cycles
+
+     393.885950533 seconds time elapsed
+
+     393.650750000 seconds user
+       0.169110000 seconds sys
+
+

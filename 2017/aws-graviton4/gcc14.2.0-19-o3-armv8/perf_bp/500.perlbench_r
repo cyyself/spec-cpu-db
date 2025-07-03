@@ -1,0 +1,14 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/500.perlbench_r/run-refrate.sh':
+
+        2040320567      br_mis_pred_retired
+     2752000479564      inst_retired
+      779049349061      cpu_cycles
+
+     279.043808249 seconds time elapsed
+
+     278.722358000 seconds user
+       0.240787000 seconds sys
+
+

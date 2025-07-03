@@ -1,0 +1,12 @@
+
+
+ Performance counter stats for 'sh /home/cyy/2017lite-run/554.roms_r/run-refrate.sh':
+
+         455216112      br_mis_pred_retired
+     1369044731330      inst_retired
+      546510975774      cpu_cycles
+
+     195.694640555 seconds time elapsed
+
+     195.613384000 seconds user
+       0.079998000 seconds sys
